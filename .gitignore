@@ -1,0 +1,8 @@
+# IntelliJ IDEA
+out/
+
+# Mac OS
+.DS_Store
+
+# slides
+*.pdf
