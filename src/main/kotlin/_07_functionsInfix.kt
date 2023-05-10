@@ -2,6 +2,7 @@
 
 fun capitalToCountry(): Map<String, String> {
     val map = HashMap<String, String>()
+    map.put("Warsaw", "Poland")
     map.put("Amsterdam", "Netherlands")
     map.put("Paris", "France")
     map.put("Rome", "Italy")

@@ -6,8 +6,8 @@ fun getFirstWord(string: String, separator: String): String {
 }
 
 fun main() {
-    println(getFirstWord("Hello Delft!", " "))
+    println(getFirstWord("Hello Warsaw!", " "))
     println(getFirstWord("Hello World!", " "))
-    println(getFirstWord("Goedemiddag allemaal!", " "))
+    println(getFirstWord("dobry dzień!", " "))
     println(getFirstWord("first,second,third", ","))
 }

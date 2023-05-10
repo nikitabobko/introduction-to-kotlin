@@ -14,18 +14,18 @@ class Label(val text: String) : Widget
 // +----------------+-----+-----+
 // |                |  1  |  2  |
 // |                |-----+-----+
-// |   wat leuk!    |           |
-// |                |   prima   |
+// |     left       |           |
+// |                |   right   |
 // |                |           |
 // +----------------+-----------+
 
 fun main() { // who can spot a bug in this code?
     val row = Row()
     val rightColumn = Column()
-    row.addChild(Label("wat leuk!"))
+    row.addChild(Label("left"))
     val innerRow = Row()
     rightColumn.addChild(innerRow)
     innerRow.addChild(Label("1"))
     innerRow.addChild(Label("2"))
-    rightColumn.addChild(Label("prima"))
+    rightColumn.addChild(Label("right"))
 }

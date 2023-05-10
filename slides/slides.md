@@ -4,7 +4,7 @@ title:
 author:
   - Nikita Bobko, Software Developer at JetBrains
 date:
-  - 03 March 2023
+  - 10 May 2023
 theme:
   - Madrid
 ---
@@ -39,35 +39,10 @@ Nikita Bobko
 
 nikita.bobko@jetbrains.com
 
-## Internships with Kotlin
+## Internships at JetBrains
 
-Several options:
-
-- Google Summer of Code 2023 \
-  https://kotlinlang.org/docs/gsoc-2023.html
-- JetBrains Internships \
-  https://internship.jetbrains.com/
+https://internship.jetbrains.com/
 
 ## The presentation materials
 
 https://github.com/nikitabobko/introduction-to-kotlin
-
-# What is Kotlin?
-
-![](./kotlin_logo.png)
-
-Kotlin is a modern programming language that allows you to write pragmatic and safe code. On 7 May 2019, Google announced that
-Kotlin is now its preferred language for Android app developers.
-
-# What platforms does Kotlin support?
-
-![](./kotlin_logo.png)
-
-Kotlin supports several compilation targets:
-
-|Target|Capabilities|
-|---|---|
-|Kotlin/JVM|Android & Backends & more!|
-|Kotlin/JS|Web applications|
-|Kotlin/Native|iOS, macOS, Linux apps!|
-|Kotlin/Wasm (Experimental)|Faster web applications!|

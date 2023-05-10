@@ -2,7 +2,7 @@
 
 fun main() {
     repeat(6, { // what concerns do you have regarding this style?
-        println("mooi code!")
+        println("piękny kod!")
     })
     listOf(1, 2, 3)
         .map({ x -> x * 2 })
