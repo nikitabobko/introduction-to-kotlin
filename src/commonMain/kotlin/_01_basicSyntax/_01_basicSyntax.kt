@@ -1,38 +1,20 @@
 // Basic syntax
 package _01_basicSyntax
 
-fun maxOf(a: Int, b: Int): Int {
-    var result: Int = 0
-    if (a > b) {
-        result = a
-    } else {
-        result = b
-    }
-    return result
+fun maxOf(a: Int, b: Int)  = if (a > b) a else b
+
+fun describe(any: Any)  = when (any) {
+    "Hello" -> "Greeting"
+    is String -> "String"
+    is Long, is Number -> "Integer"
+    else -> "Something else"
 }
 
-fun describe(any: Any): String {
-    when (any) {
-        "Hello" -> return "Greeting"
-        is String -> return "String"
-        is Long, is Number -> return "Integer"
-        else -> return "Something else"
-    }
-}
-
-class User {
-    val name: String
-    val age: Int
-
-    constructor(name: String, age: Int) {
-        this.name = name
-        this.age = age
-    }
-}
+class User(val name: String, val age: Int)
 
 fun loops() {
     // Kotlin doesn't have C-style for loop! for (int i = 0; i < size; i++)
-    for (fruit in listOf("Apple", "Banana", "Cherry")) {
+    for ((index, fruit) in listOf("Apple", "Banana", "Cherry").withIndex()) {
         println(fruit)
     }
 

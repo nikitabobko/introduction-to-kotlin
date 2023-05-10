@@ -20,10 +20,10 @@ fun runAndMakeSounds(animal: Animal) {
     if (animal is Cat) {
         // In Java or any other statically typed
         // language that would be a compilation error
-        (animal as Cat).meow()
+        animal.meow()
     }
     if (animal is Dog) {
-        (animal as Dog).woof()
+        animal.woof()
     }
 //    animal.meow() // compilation error in Kotlin (what if it was a dog?!)
 }
@@ -45,7 +45,4 @@ fun runAndMakeSounds(animal: Animal) {
 
 
 
-fun isNotEmptyString(str: Any): Boolean {
-    if (str !is String) return false
-    return str.length != 0
-}
+fun isNotEmptyString(str: Any): Boolean = str is String && str.length != 0

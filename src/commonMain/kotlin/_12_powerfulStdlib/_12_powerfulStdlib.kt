@@ -1,29 +1,27 @@
 // Powerful stdlib
 package _12_powerfulStdlib
 
-fun String.getFirstWord(separator: String): String = TODO()
-
 fun substringBefore() {
     val name = "John Cena"
-    "John Cena".getFirstWord(" ")
+    "John Cena".substringBefore(" ")
 }
 
-fun lastN(string: String, n: Int): String = string.substring(string.length - n, string.length)
+fun lastN(string: String, n: Int): String = string.takeLast(n)
 
-fun dropLast(string: String, n: Int): String = string.substring(0, string.length - n)
+fun dropLast(string: String, n: Int): String = string.dropLast(n)
 
 fun coerce(x: Int, up: Int, low: Int) {
-    minOf(up, maxOf(low, x))
+    x.coerceIn(low, up)
 }
 
 fun firstChar(str: String?): Char? {
-    if (str != null && str != "") {
+    if (!str.isNullOrBlank()) {
         return str[0]
     }
     return null
 }
 
-fun ifIsBlank(name: String): String = if (name.isBlank()) "John" else name
+fun ifIsBlank(name: String): String = name.ifBlank { "John" }
 
 fun differenceBetweenAdjacentNumbers(list: List<Int>) {
     // imperative style
@@ -34,7 +32,7 @@ fun differenceBetweenAdjacentNumbers(list: List<Int>) {
     newList.forEach(::println)
 
     // functional style
-    list.zip(list.drop(1)).map { it.second - it.first }.forEach(::println)
+    list.zipWithNext().map { it.second - it.first }.forEach(::println)
 }
 
 fun buildList(list: List<Int>) {
