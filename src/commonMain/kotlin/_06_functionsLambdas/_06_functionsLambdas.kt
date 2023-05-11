@@ -1,4 +1,5 @@
-// Functions: lambdas, single parameter lambda, last parameter lambda, inline functions (measure time, repeat)
+// Functions: lambdas, last parameter lambda, single parameter lambda,
+// inline functions (measure time, repeat)
 package _06_functionsLambdas
 
 fun main() {
