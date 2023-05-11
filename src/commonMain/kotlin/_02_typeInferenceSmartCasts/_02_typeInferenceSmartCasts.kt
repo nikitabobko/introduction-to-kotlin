@@ -49,3 +49,5 @@ fun isNotEmptyString(str: Any): Boolean {
     if (str !is String) return false
     return str.length != 0
 }
+
+// Any questions?

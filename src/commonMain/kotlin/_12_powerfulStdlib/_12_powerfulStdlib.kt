@@ -59,3 +59,5 @@ fun partition(list: List<Int>) {
     val biggerThan5 = list.filter { it > 5 }
     val smallerThan5 = list.filter { it < 5 }
 }
+
+// Any questions?

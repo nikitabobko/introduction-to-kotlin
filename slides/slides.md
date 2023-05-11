@@ -9,7 +9,7 @@ theme:
   - Madrid
 ---
 
-# Demo
+# Expectations
 
 - The talk doesn't learn you Kotlin in a methodological way but rather tries to show you how beautiful is Kotlin to get
   interested.
@@ -17,9 +17,9 @@ theme:
   syntax constructs gradually during the talk. But feel free to stop me and ask questions!
 - Don't hesitate to ask questions during the presentation
 
-## The materials
+# Demo
 
-https://github.com/nikitabobko/introduction-to-kotlin
+Demo!
 
 # Kotlin is much bigger than I showed you!
 

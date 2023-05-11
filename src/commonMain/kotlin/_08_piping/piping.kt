@@ -9,3 +9,5 @@ fun totalRevenueOfImportantOrders(orders: List<Order>): Int =
         .flatMap { it.items }
         .map { it.price }
         .reduce { x, y -> x + y }
+
+// Any questions?

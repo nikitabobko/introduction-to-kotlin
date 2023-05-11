@@ -9,3 +9,5 @@ fun main() {
         .map({ x -> x * 2 })
         .forEach({ x -> println(x) })
 }
+
+// Any questions?

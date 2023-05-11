@@ -12,3 +12,5 @@ fun main() {
     println(getFirstWord("dobry dzień!", " "))
     println(getFirstWord("first,second,third", ","))
 }
+
+// Any questions?
