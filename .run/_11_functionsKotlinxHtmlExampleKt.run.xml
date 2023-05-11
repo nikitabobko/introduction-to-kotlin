@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="_11_functionsKotlinxHtmlExampleKt" type="JetRunConfigurationType" nameIsGenerated="true">
+    <option name="MAIN_CLASS_NAME" value="_11_functionsKotlinxHtmlExample._11_functionsKotlinxHtmlExampleKt" />
+    <module name="introduction-to-kotlin.jvmMain" />
+    <shortenClasspath name="NONE" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

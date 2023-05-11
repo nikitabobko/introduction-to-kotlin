@@ -1,8 +1,9 @@
 # IntelliJ IDEA
-out/
-
+/.idea
+# Gradle
+/build
+/.gradle
 # Mac OS
 .DS_Store
-
 # slides
 *.pdf
