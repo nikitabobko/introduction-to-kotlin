@@ -1,3 +1,3 @@
 fun main() {
-    _11_functionsKotlinxHtmlExample.kotlinxHtmlExample()
+    _11_functionsKotlinxHtmlExample.main()
 }
