@@ -1,0 +1,7 @@
+digraph G {
+    common [label="Kotlin common code"]
+    jvm -> common [label="JVM depends on common", color=blue, fontcolor=blue]
+    native -> common [label="Native depends on common", color="#00b300", fontcolor="#00b300"]
+    jvm [label="Kotlin/JVM"]
+    native [label="Kotlin/Native"]
+}

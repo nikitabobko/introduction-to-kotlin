@@ -21,6 +21,10 @@ theme:
 
 Demo!
 
+# Kotlin Multiplatform
+
+![](./mpp.svg)
+
 # Kotlin is much bigger than I showed you!
 
 - Kotlin Multiplatform!

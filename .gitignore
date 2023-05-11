@@ -5,5 +5,3 @@
 /.gradle
 # Mac OS
 .DS_Store
-# slides
-*.pdf
