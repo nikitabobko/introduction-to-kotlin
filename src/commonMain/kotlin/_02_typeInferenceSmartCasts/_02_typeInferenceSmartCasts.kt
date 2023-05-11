@@ -45,9 +45,9 @@ fun runAndMakeSounds(animal: Animal) {
 
 
 
-fun isNotEmptyString(str: Any): Boolean {
-    if (str !is String) return false
-    return str.length != 0
+fun isNotEmptyString(any: Any): Boolean {
+    if (any !is String) return false
+    return any.length != 0
 }
 
 // Any questions?
